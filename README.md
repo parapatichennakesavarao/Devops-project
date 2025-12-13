@@ -5,6 +5,8 @@
   demonstrating <strong>Git branching, Docker, and cloud deployment automation</strong>.
 </p>
 
+![](https://github.com/parapatichennakesavarao/Devops-project/blob/main/images/Screenshot%20(167).png)
+
 ---
 
 ## 📌 Introduction
@@ -18,6 +20,14 @@ The project is structured using multiple Git branches to clearly separate:
 - Cloud (AWS) setup scripts
 
 This approach ensures **clean code management, scalable deployments, and easier collaboration**.
+
+## 📌 Visuals
+![](https://github.com/parapatichennakesavarao/Devops-project/blob/main/images/Screenshot%20(167).png)
+ 
+![](https://github.com/parapatichennakesavarao/Devops-project/blob/main/images/Screenshot%20(168).png)
+
+![](https://github.com/parapatichennakesavarao/Devops-project/blob/main/images/Screenshot%20(175).png)
+
 
 ## ⚠️ Challenges Faced
 
@@ -66,3 +76,4 @@ git push -u origin docker
 git checkout -b awsscript
 git commit -m "AWS setup file and nginx config file"
 git push -u origin awsscript
+
