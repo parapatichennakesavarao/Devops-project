@@ -1,15 +1,4 @@
-# Java
-target/
-*.class
-*.jar
-*.war
-*.ear
-*.logs
-*.iml
-.idea/
-.settings/
-.classpath
-.project
+#java
 .vscode
 
 # Node.js
