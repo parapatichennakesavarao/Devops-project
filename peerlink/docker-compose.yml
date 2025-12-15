@@ -1,0 +1,16 @@
+services:
+  backend:
+    image: anshkumar2311/peerlink-backend:latest
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./uploads:/app/uploads
+
+  frontend:
+    image: anshkumar2311/peerlink-frontend:latest
+    ports:
+      - "3000:3000"
+    environment:
+      - NEXT_PUBLIC_API_URL=http://backend:8080
+    depends_on:
+      - backend

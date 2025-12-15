@@ -1,0 +1,19 @@
+# ---- BUILD STAGE ----
+FROM maven:3.9-eclipse-temurin-17 AS build
+WORKDIR /build
+
+COPY pom.xml .
+COPY src ./src
+
+# build jar (skip tests to speed up)
+RUN mvn clean package -DskipTests
+
+# ---- RUNTIME STAGE ----
+FROM eclipse-temurin:17-jre
+WORKDIR /app
+
+# copy JAR (auto matches your jar name)
+COPY --from=build /build/target/*.jar app.jar
+
+EXPOSE 8080
+CMD ["java", "-jar", "app.jar"]
