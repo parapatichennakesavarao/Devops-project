@@ -1,15 +1,4 @@
-# Java
 
-
-
-*.ear
-*.logs
-*.iml
-.idea/
-.settings/
-.classpath
-.project
-.vscode
 
 # Node.js
 ui/node_modules/
