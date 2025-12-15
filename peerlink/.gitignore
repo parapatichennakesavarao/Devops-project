@@ -1,8 +1,7 @@
 # Java
-target/
-*.class
-*.jar
-*.war
+
+
+
 *.ear
 *.logs
 *.iml
