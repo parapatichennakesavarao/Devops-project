@@ -41,7 +41,7 @@ Writing Dockerfiles for multiple services
 
 Configuring Nginx reverse proxy on AWS
 
-Handling line-ending warnings (LF vs CRLF) on Winddows
+Handling line-ending warningss (LF vs CRLF) on Winddows
 
 ## 🎯 Conclusion
 
