@@ -172,6 +172,7 @@ PeerLink demonstrates how DevOps practices improve deployment reliability, scala
 docker run -d -p 8080:8080 --name backend anshkumar2311/peerlink-backend
 
 docker run -d -p 3000:3000 --name frontend anshkumar2311/peerlink-frontend
+http://localhost:3000/
 
 
 ### Git Commands
