@@ -167,6 +167,12 @@ PeerLink demonstrates how DevOps practices improve deployment reliability, scala
 - AWS Documentation  
 
 ## ⚙️ Commands Used
+### Docker Commands to run project 
+```bash
+docker run -d -p 8080:8080 --name backend anshkumar2311/peerlink-backend
+
+docker run -d -p 3000:3000 --name frontend anshkumar2311/peerlink-frontend
+
 
 ### Git Commands
 
