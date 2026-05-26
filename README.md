@@ -167,6 +167,10 @@ PeerLink demonstrates how DevOps practices improve deployment reliability, scala
 - AWS Documentation  
 
 ## ⚙️ Commands Used
+### Run locally 
+java -jar target\p2p-1.0-SNAPSHOT.jar --> to run backend using jar file 
+cd ui
+nom run dev --> run frontend 
 ### Docker Commands to run project 
 ```bash
 docker run -d -p 8080:8080 --name backend anshkumar2311/peerlink-backend
